@@ -28,7 +28,7 @@ binding.pry
     #   self.total = (total * ((100.0-discount.to_f) / 100)).to_i
     #
     #   "After the discount, the total comes to $800."
-    end
+    # end
   end
   # describe '#apply_discount' do
   #   context 'the cash register was initialized with an employee discount' do
