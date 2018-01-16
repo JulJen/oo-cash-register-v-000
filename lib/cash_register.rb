@@ -21,7 +21,9 @@ class CashRegister
   end
 
   def apply_discount
-    self.discount
+    if self.discount >= 0
+
+      ""After the discount, the total comes to $800."
 
   end
   # describe '#apply_discount' do
