@@ -2,16 +2,17 @@ require 'pry'
 
 class CashRegister
 
-  attr_accessor :total
+  attr_accessor :total, :discount
 
   # @@total = 0
 
   # attr_reader :total
 
-  def initialize(total = 0)
+  def initialize(discount = 0)
     # @total = []
     # @total << 0
     @total = 0
+    @total << discount
   end
   #
   # it 'sets an instance variable @total on initialization to zero' do
