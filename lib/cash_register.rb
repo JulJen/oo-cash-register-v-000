@@ -22,7 +22,7 @@ class CashRegister
     self.total += (price * quantity)
 binding.pry
     quantity.times {@items << title}
-    self.last_transaction = price*quantity
+    self.last_transaction = price * quantity
   end
     # describe '#add_item' do
     #   it 'accepts a title and a price and increases the total' do
