@@ -38,8 +38,6 @@ class CashRegister
     #     cash_register.add_item("Justin's Peanut Butter Cups", 2.50, 2)
     #     expect(cash_register.total).to eq(14.5)
 
-  end
-
   def apply_discount
 
   end
