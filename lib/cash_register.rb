@@ -2,7 +2,7 @@ require 'pry'
 
 class CashRegister
 
-  attr_accessor :total, :discount, :items, :
+  attr_accessor :total, :discount, :items, :last_transaction
 
   # @@total = 0
 
@@ -21,6 +21,7 @@ class CashRegister
   def add_item (title, price, quantity = 1)
     self.total += (price * quantity)
     quantity.times {@items << title}
+    self.last_transaction = price*quantity
   end
     # describe '#add_item' do
     #   it 'accepts a title and a price and increases the total' do
