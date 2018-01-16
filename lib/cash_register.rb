@@ -18,8 +18,6 @@ class CashRegister
     @total
   end
 
-# Failure/Error: expect(cash_register.total).to eq(100)
-
   def add_item (title, price)
 
   end
