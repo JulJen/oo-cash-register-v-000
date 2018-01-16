@@ -29,7 +29,6 @@ binding.pry
 
       "After the discount, the total comes to $800."
     end
-
   end
   # describe '#apply_discount' do
   #   context 'the cash register was initialized with an employee discount' do
@@ -57,7 +56,7 @@ binding.pry
   #     end
   #   end
   # end
-t
+
 
   def items
 
