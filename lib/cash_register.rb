@@ -13,21 +13,9 @@ class CashRegister
     @discount = discount
     @items = []
   end
-  #
-  # it 'sets an instance variable @total on initialization to zero' do
-  #   expect(cash_register.instance_variable_get(:@total)).to eq(0)
-  # end
-  #
-  # it 'optionally takes an employee discount on initialization' do
-  #   expect(cash_register_with_discount.discount).to eq(20)
 
-#   def initialize
-#     @total = 0
-#   end
-#
   def total
-    self
-    # @total = 100
+    @total
   end
 
 # Failure/Error: expect(cash_register.total).to eq(100)
