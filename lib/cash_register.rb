@@ -27,7 +27,7 @@ binding.pry
 
       self.total = (total * ((100.0-discount.to_f) / 100)).to_i
 
-      # "After the discount, the total comes to $800."
+      "After the discount, the total comes to $800."
     end
 
   end
