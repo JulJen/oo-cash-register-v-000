@@ -28,8 +28,9 @@ class CashRegister
       "There is no discount to apply."
     end
   end
-  
+
   def items
+    self.items.select{|item| item%2==0 }
 
   end
 
