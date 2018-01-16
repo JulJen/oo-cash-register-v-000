@@ -30,8 +30,7 @@ class CashRegister
   end
 
   def items
-    self.items.select{|item| item%2==0 }
-
+    @items
   end
 
 #   def void_last_transaction
