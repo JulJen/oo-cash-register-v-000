@@ -9,10 +9,9 @@ class CashRegister
   # attr_reader :total
 
   def initialize(discount = 0)
-    # @total = []
-    # @total << 0
     @total = 0
-    @total << discount
+    @discount = discount
+    @items = []
   end
   #
   # it 'sets an instance variable @total on initialization to zero' do
