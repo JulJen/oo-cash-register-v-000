@@ -20,6 +20,7 @@ class CashRegister
 
   def add_item (title, price, quantity = 1)
     self.total
+  end
     # describe '#add_item' do
     #   it 'accepts a title and a price and increases the total' do
     #     expect{cash_register.add_item("eggs", 0.98)}.to change{cash_register.total}.by(0.98)
@@ -36,8 +37,6 @@ class CashRegister
     #     expect(cash_register.total).to eq(9.5)
     #     cash_register.add_item("Justin's Peanut Butter Cups", 2.50, 2)
     #     expect(cash_register.total).to eq(14.5)
-      end
-    end
 
   end
 
