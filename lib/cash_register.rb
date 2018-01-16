@@ -20,7 +20,7 @@ class CashRegister
 
   def add_item (title, price, quantity = 1)
     self.total += (price * quantity)
-    quantity.times {self.items << item}
+    quantity.times {self.items << title}
   end
     # describe '#add_item' do
     #   it 'accepts a title and a price and increases the total' do
