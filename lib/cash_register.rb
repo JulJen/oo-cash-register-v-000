@@ -21,7 +21,7 @@ class CashRegister
   end
 
   def apply_discount
-binding.pry
+# binding.pry
 
     if self.discount >= 0
 
